@@ -1,0 +1,70 @@
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    background: #494848;
+}
+.contact_list{}
+.contact_list .contact {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1.5px solid #494848;
+    padding: 12px 5px;
+    /* border-radius: 3px; */
+    color: #fff;
+    background: #5d5757;
+    box-sizing: border-box;
+    /* box-shadow: 0px 1px 4px -1px rgb(55 54 45 / 50%); */
+    border-left: 0px;
+    /* margin-bottom: 2px; */
+    border-right: 0px;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.contact_list > .contact > .avater {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    color: #fff;
+    font-weight: 400;
+    border-radius: 100px;
+    font-size: 14px;
+    padding: 8px 5px;
+}
+.contact_list .contact .name {
+    font-size: 15px;
+}
+.contact_list .contact .option {
+    margin-top: 14px;
+    text-align: center  ;
+    display: none;
+}
+
+.contact_list .contact .option i {
+    background: #919191;
+    font-size: 10px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.contact_list .contact .option .call {
+    background: #24c55d;
+    transform: rotate(
+90deg);
+}
+.contact_list .contact .option .msg {
+    background: #5dfff8c2;
+}
+.contact_list .contact .option .info{}
+.active{
+    display: block !important;
+}
+.contact_list .contact:first-child{
+border-radius:6px 6px 0px 0px;
+}
+.contact_list .contact:last-child{
+border-radius:0px 0px 6px 6px;
+}
+.contact:hover {
+    background: #4d4949;
+}
